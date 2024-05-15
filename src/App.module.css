@@ -1,0 +1,29 @@
+.page {
+  text-align: center;
+}
+
+.header {
+  padding: 10px;
+  height: 19vh;
+  font-size: 36px;
+  font-family: sans-serif;
+}
+
+.field {
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  height: 79vh;
+  aspect-ratio: 1/1;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+
+.card {
+  height: 100%;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15%;
+}
