@@ -27,3 +27,34 @@
   width: 100%;
   border-radius: 15%;
 }
+
+.cardContent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.card.chosen .cardContent {
+  transform: rotateY(180deg);
+}
+
+.cardFront,
+.cardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.cardFront {
+  background-color: #ffb11f;
+  border-radius: 15%;
+}
+
+.cardBack {
+  border-radius: 15%;
+  transform: rotateY(180deg);
+}
