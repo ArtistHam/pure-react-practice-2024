@@ -17,6 +17,13 @@
   aspect-ratio: 1/1;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 15px;
+  position: relative;
+}
+
+.scoreWrapper {
+  position: absolute;
+  right: 10px;
+  top: -26px;
 }
 
 .card {
@@ -57,4 +64,14 @@
 .cardBack {
   border-radius: 15%;
   transform: rotateY(180deg);
+}
+
+@media (orientation: portrait) {
+  .header {
+    margin-bottom: 30px;
+  }
+  .field {
+    height: auto;
+    width: 80vw;
+  }
 }

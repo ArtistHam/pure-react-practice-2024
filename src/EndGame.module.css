@@ -1,0 +1,16 @@
+.wrapper {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ff67ccc9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 40px 60px;
+  border-radius: 15px;
+}
